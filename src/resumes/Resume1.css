@@ -1,0 +1,50 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+.resume-body{
+    height: 3508px;
+    width: 2408px;
+}
+.resume-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+    width: 700px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.leftColumn{
+    background-color: #FFCB42;
+    height: 100%;
+    width: 35%;
+    margin-right: 4px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.contact-info,.skills,.languages,.hobbies{
+    margin-left: 2%;
+    padding: 5px;
+    width: 90%;
+}
+hr{
+    border: none;
+    background-color:white;
+    color: white;
+    height: 1px;
+    margin-top: 0px;
+}
+.rightColumn{
+    background-color: white;
+    height: 100%;
+    width: 65%;
+    display: inline-block;
+}
+.work-experience,.education,.projects
+{
+    margin-left: 2%;
+    padding: 5px;
+    width: 90%;
+}
+ul{
+    list-style: none;
+}
